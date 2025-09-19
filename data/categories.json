@@ -1,0 +1,90 @@
+[
+  {
+    "id": "action",
+    "name": "Action",
+    "description": "Fast-paced games with exciting gameplay",
+    "icon": "⚔️",
+    "color": "#ef4444",
+    "isActive": true
+  },
+  {
+    "id": "puzzle",
+    "name": "Puzzle",
+    "description": "Brain-teasing games that challenge your mind",
+    "icon": "🧩",
+    "color": "#8b5cf6",
+    "isActive": true
+  },
+  {
+    "id": "strategy",
+    "name": "Strategy",
+    "description": "Think ahead and plan your moves carefully",
+    "icon": "🎯",
+    "color": "#06b6d4",
+    "isActive": true
+  },
+  {
+    "id": "casual",
+    "name": "Casual",
+    "description": "Easy-to-play games for everyone",
+    "icon": "🎮",
+    "color": "#10b981",
+    "isActive": true
+  },
+  {
+    "id": "arcade",
+    "name": "Arcade",
+    "description": "Classic arcade-style games",
+    "icon": "🕹️",
+    "color": "#f59e0b",
+    "isActive": true
+  },
+  {
+    "id": "sports",
+    "name": "Sports",
+    "description": "Virtual sports and athletic competitions",
+    "icon": "⚽",
+    "color": "#3b82f6",
+    "isActive": true
+  },
+  {
+    "id": "racing",
+    "name": "Racing",
+    "description": "High-speed racing and driving games",
+    "icon": "🏎️",
+    "color": "#dc2626",
+    "isActive": true
+  },
+  {
+    "id": "adventure",
+    "name": "Adventure",
+    "description": "Explore new worlds and embark on quests",
+    "icon": "🗺️",
+    "color": "#7c3aed",
+    "isActive": true
+  },
+  {
+    "id": "simulation",
+    "name": "Simulation",
+    "description": "Real-world simulation games",
+    "icon": "🏗️",
+    "color": "#059669",
+    "isActive": true
+  },
+  {
+    "id": "multiplayer",
+    "name": "Multiplayer",
+    "description": "Play with friends and other players",
+    "icon": "👥",
+    "color": "#7c2d12",
+    "isActive": true
+  },
+  {
+    "id": "meme-games",
+    "name": "Meme Games",
+    "description": "Fun and entertaining meme-inspired games",
+    "icon": "😂",
+    "color": "#f97316",
+    "isActive": true
+  }
+]

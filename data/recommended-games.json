@@ -1,0 +1,51 @@
+[
+  {
+    "id": "rec_1756629329835",
+    "gameId": "deer-adventure",
+    "priority": 1,
+    "isActive": true,
+    "addedDate": "2025-08-31"
+  },
+  {
+    "id": "rec_1756629333402",
+    "gameId": "elastic-man",
+    "priority": 2,
+    "isActive": true,
+    "addedDate": "2025-08-31"
+  },
+  {
+    "id": "rec_1756629336894",
+    "gameId": "the-battle-cats",
+    "priority": 3,
+    "isActive": true,
+    "addedDate": "2025-08-31"
+  },
+  {
+    "id": "rec_1756629340432",
+    "gameId": "okak-clicker-gotta-tap-em-all",
+    "priority": 4,
+    "isActive": true,
+    "addedDate": "2025-08-31"
+  },
+  {
+    "id": "rec_1756629343283",
+    "gameId": "take-care-of-your-own-burning-spice",
+    "priority": 5,
+    "isActive": true,
+    "addedDate": "2025-08-31"
+  },
+  {
+    "id": "rec_1756629349060",
+    "gameId": "cut-the-rope",
+    "priority": 6,
+    "isActive": true,
+    "addedDate": "2025-08-31"
+  },
+  {
+    "id": "rec_1756629351985",
+    "gameId": "take-care-of-your-own-hollyberry",
+    "priority": 7,
+    "isActive": true,
+    "addedDate": "2025-08-31"
+  }
+]

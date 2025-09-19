@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Block admin pages
+Disallow: /admin
+Disallow: /admin/*
+
+# Block API routes
+Disallow: /api/
+Disallow: /api/*
+
+# Block test pages
+Disallow: /test
+Disallow: /test/*
+Disallow: /ad-test
+Disallow: /ad-script-test
+
+# Block debug pages
+Disallow: /debug*
+
+# Sitemap
+Sitemap: https://imnotarobot.online/sitemap.xml

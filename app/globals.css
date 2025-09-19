@@ -1,0 +1,336 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+  --primary: 221.2 83.2% 53.3%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222.2 84% 4.9%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 210 40% 96%;
+  --accent-foreground: 222.2 84% 4.9%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 221.2 83.2% 53.3%;
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+  --card: 222.2 84% 4.9%;
+  --card-foreground: 210 40% 98%;
+  --popover: 222.2 84% 4.9%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 217.2 91.2% 59.8%;
+  --primary-foreground: 222.2 84% 4.9%;
+  --secondary: 217.2 32.6% 17.5%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+  --accent: 217.2 32.6% 17.5%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 224.3 76.3% 94.1%;
+}
+
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    overflow-x: hidden;
+    max-width: 100vw;
+    position: relative;
+  }
+
+  /* 防止所有容器超出视口 */
+  .container, .max-w-7xl, .max-w-6xl {
+    max-width: 100vw !important;
+    overflow-x: hidden;
+  }
+
+  /* 确保图片不会超出容器 */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  /* 移动端响应式优化 */
+  @media (max-width: 768px) {
+    .max-w-7xl {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+
+    /* 防止flex容器在移动端溢出 */
+    .flex {
+      flex-wrap: wrap;
+    }
+
+    /* 游戏卡片网格优化 */
+    .grid {
+      gap: 0.75rem !important;
+    }
+
+    /* 确保所有容器不会超出屏幕 */
+    .w-80, .w-96 {
+      width: 100% !important;
+      max-width: none !important;
+    }
+
+    /* 搜索框在移动端的优化 */
+    .w-48 {
+      width: 100% !important;
+      max-width: 200px;
+    }
+  }
+
+  /* 超小屏幕优化 */
+  @media (max-width: 480px) {
+    .text-4xl {
+      font-size: 2rem !important;
+    }
+
+    .text-3xl {
+      font-size: 1.5rem !important;
+    }
+
+    .p-8 {
+      padding: 1rem !important;
+    }
+
+    .px-8 {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+  }
+
+  /* Game card layout fixes */
+  .game-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .game-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Ad Slot Styles */
+  .ad-slot {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .ad-slot-header {
+    margin: 0.5rem 0;
+  }
+  
+  .ad-slot-hero-bottom {
+    margin: 1rem 0;
+  }
+  
+  .ad-slot-content-top {
+    margin: 1rem 0;
+  }
+  
+  .ad-slot-content-bottom {
+    margin: 1rem 0;
+  }
+  
+  .ad-slot-game-details-bottom {
+    margin: 1.5rem 0;
+  }
+  
+  .ad-slot-footer {
+    margin: 1rem 0 0 0;
+  }
+  
+  .ad-slot-sidebar {
+    margin: 1rem 0;
+  }
+  
+  .ad-content {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .ad-content * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive ad styles */
+  @media (max-width: 768px) {
+    .ad-slot-sidebar {
+      display: none; /* Hide sidebar ads on mobile */
+    }
+    
+    .ad-slot-header,
+    .ad-slot-hero-bottom,
+    .ad-slot-content-top,
+    .ad-slot-content-bottom,
+    .ad-slot-game-details-bottom {
+      margin: 0.5rem 0;
+    }
+    
+    .ad-content {
+      font-size: 14px;
+    }
+    
+    .ad-content h3,
+    .ad-content h4 {
+      font-size: 1rem !important;
+    }
+    
+    .ad-content p {
+      font-size: 0.8rem !important;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .ad-slot-sidebar {
+      margin: 0.8rem 0;
+    }
+    
+    .ad-content {
+      font-size: 15px;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .ad-slot-sidebar {
+      margin: 1rem 0;
+      min-height: 120px;
+    }
+  }
+  
+  /* Ensure ads don't break layout */
+  .ad-slot img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .ad-slot div {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* Fullscreen game styles */
+  :fullscreen {
+    background: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  :-webkit-full-screen {
+    background: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  :-moz-full-screen {
+    background: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  :-ms-fullscreen {
+    background: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  /* Ensure iframe takes full space in fullscreen */
+  :fullscreen iframe {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    display: block !important;
+  }
+  
+  :-webkit-full-screen iframe {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    display: block !important;
+  }
+  
+  :-moz-full-screen iframe {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    display: block !important;
+  }
+  
+  :-ms-fullscreen iframe {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    display: block !important;
+  }
+  
+  /* Ensure game iframes have no borders or margins */
+  .game-player iframe {
+    border: none !important;
+    outline: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    background: transparent !important;
+    min-height: 600px !important;
+  }
+  
+  /* Remove any default card styling that might create borders */
+  .game-player .card {
+    box-shadow: none !important;
+    border: none !important;
+    min-height: 600px !important;
+  }
+  
+  /* Ensure GamePlayer container maintains proper size */
+  .game-player {
+    min-height: 600px !important;
+  }
+  
+  /* Ensure the game content area maintains proper height - only apply to CardContent, not control bar */
+  .game-player .game-content {
+    min-height: 600px !important;
+  }
+}

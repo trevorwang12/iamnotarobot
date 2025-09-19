@@ -1,0 +1,317 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img [ref=e8]
+          - link "Free Play I'm Not a Robot Game" [ref=e10] [cursor=pointer]:
+            - /url: /
+        - navigation [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "New Games" [ref=e13] [cursor=pointer]:
+            - /url: /new-games
+          - link "Hot Games" [ref=e14] [cursor=pointer]:
+            - /url: /hot-games
+          - generic [ref=e15]:
+            - textbox "Search games..." [ref=e16]
+            - img
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "Latest Games" [level=2] [ref=e19]
+        - paragraph [ref=e20]: Discover the newest games on our platform with cutting-edge gameplay and creative design
+      - generic [ref=e21]:
+        - link "Memopolis NEW Memopolis Play Now" [ref=e22] [cursor=pointer]:
+          - /url: /game/memopolis
+          - generic [ref=e24] [cursor=pointer]:
+            - generic [ref=e25] [cursor=pointer]:
+              - img "Memopolis" [ref=e26] [cursor=pointer]
+              - img [ref=e29] [cursor=pointer]
+              - generic [ref=e32] [cursor=pointer]: NEW
+            - generic [ref=e33] [cursor=pointer]:
+              - heading "Memopolis" [level=3] [ref=e34] [cursor=pointer]
+              - button "Play Now" [ref=e36] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Curve Rush IO NEW Curve Rush IO Play Now" [ref=e37] [cursor=pointer]:
+          - /url: /game/curve-rush-io
+          - generic [ref=e39] [cursor=pointer]:
+            - generic [ref=e40] [cursor=pointer]:
+              - img "Curve Rush IO" [ref=e41] [cursor=pointer]
+              - img [ref=e44] [cursor=pointer]
+              - generic [ref=e47] [cursor=pointer]: NEW
+            - generic [ref=e48] [cursor=pointer]:
+              - heading "Curve Rush IO" [level=3] [ref=e49] [cursor=pointer]
+              - button "Play Now" [ref=e51] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Escape Raid NEW Escape Raid Play Now" [ref=e52] [cursor=pointer]:
+          - /url: /game/escape-raid
+          - generic [ref=e54] [cursor=pointer]:
+            - generic [ref=e55] [cursor=pointer]:
+              - img "Escape Raid" [ref=e56] [cursor=pointer]
+              - img [ref=e59] [cursor=pointer]
+              - generic [ref=e62] [cursor=pointer]: NEW
+            - generic [ref=e63] [cursor=pointer]:
+              - heading "Escape Raid" [level=3] [ref=e64] [cursor=pointer]
+              - button "Play Now" [ref=e66] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Chicken Flip NEW Chicken Flip Play Now" [ref=e67] [cursor=pointer]:
+          - /url: /game/chicken-flip
+          - generic [ref=e69] [cursor=pointer]:
+            - generic [ref=e70] [cursor=pointer]:
+              - img "Chicken Flip" [ref=e71] [cursor=pointer]
+              - img [ref=e74] [cursor=pointer]
+              - generic [ref=e77] [cursor=pointer]: NEW
+            - generic [ref=e78] [cursor=pointer]:
+              - heading "Chicken Flip" [level=3] [ref=e79] [cursor=pointer]
+              - button "Play Now" [ref=e81] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Kickback Dash NEW Kickback Dash Play Now" [ref=e82] [cursor=pointer]:
+          - /url: /game/kickback-dash
+          - generic [ref=e84] [cursor=pointer]:
+            - generic [ref=e85] [cursor=pointer]:
+              - img "Kickback Dash" [ref=e86] [cursor=pointer]
+              - img [ref=e89] [cursor=pointer]
+              - generic [ref=e92] [cursor=pointer]: NEW
+            - generic [ref=e93] [cursor=pointer]:
+              - heading "Kickback Dash" [level=3] [ref=e94] [cursor=pointer]
+              - button "Play Now" [ref=e96] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Wacky Flip NEW Wacky Flip Play Now" [ref=e97] [cursor=pointer]:
+          - /url: /game/wacky-flip
+          - generic [ref=e99] [cursor=pointer]:
+            - generic [ref=e100] [cursor=pointer]:
+              - img "Wacky Flip" [ref=e101] [cursor=pointer]
+              - img [ref=e104] [cursor=pointer]
+              - generic [ref=e107] [cursor=pointer]: NEW
+            - generic [ref=e108] [cursor=pointer]:
+              - heading "Wacky Flip" [level=3] [ref=e109] [cursor=pointer]
+              - button "Play Now" [ref=e111] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Agar.io NEW Agar.io Play Now" [ref=e112] [cursor=pointer]:
+          - /url: /game/agario
+          - generic [ref=e114] [cursor=pointer]:
+            - generic [ref=e115] [cursor=pointer]:
+              - img "Agar.io" [ref=e116] [cursor=pointer]
+              - img [ref=e119] [cursor=pointer]
+              - generic [ref=e122] [cursor=pointer]: NEW
+            - generic [ref=e123] [cursor=pointer]:
+              - heading "Agar.io" [level=3] [ref=e124] [cursor=pointer]
+              - button "Play Now" [ref=e126] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Take Care of Your Own Hollyberry NEW Take Care of Your Own Hollyberry Play Now" [ref=e127] [cursor=pointer]:
+          - /url: /game/take-care-of-your-own-hollyberry
+          - generic [ref=e129] [cursor=pointer]:
+            - generic [ref=e130] [cursor=pointer]:
+              - img "Take Care of Your Own Hollyberry" [ref=e131] [cursor=pointer]
+              - img [ref=e134] [cursor=pointer]
+              - generic [ref=e137] [cursor=pointer]: NEW
+            - generic [ref=e138] [cursor=pointer]:
+              - heading "Take Care of Your Own Hollyberry" [level=3] [ref=e139] [cursor=pointer]
+              - button "Play Now" [ref=e141] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Elastic Man NEW Elastic Man Play Now" [ref=e142] [cursor=pointer]:
+          - /url: /game/elastic-man
+          - generic [ref=e144] [cursor=pointer]:
+            - generic [ref=e145] [cursor=pointer]:
+              - img "Elastic Man" [ref=e146] [cursor=pointer]
+              - img [ref=e149] [cursor=pointer]
+              - generic [ref=e152] [cursor=pointer]: NEW
+            - generic [ref=e153] [cursor=pointer]:
+              - heading "Elastic Man" [level=3] [ref=e154] [cursor=pointer]
+              - button "Play Now" [ref=e156] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Take Care of Your Own Burning Spice NEW Take Care of Your Own Burning Spice Play Now" [ref=e157] [cursor=pointer]:
+          - /url: /game/take-care-of-your-own-burning-spice
+          - generic [ref=e159] [cursor=pointer]:
+            - generic [ref=e160] [cursor=pointer]:
+              - img "Take Care of Your Own Burning Spice" [ref=e161] [cursor=pointer]
+              - img [ref=e164] [cursor=pointer]
+              - generic [ref=e167] [cursor=pointer]: NEW
+            - generic [ref=e168] [cursor=pointer]:
+              - heading "Take Care of Your Own Burning Spice" [level=3] [ref=e169] [cursor=pointer]
+              - button "Play Now" [ref=e171] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "A Shedletsky POV NEW A Shedletsky POV Play Now" [ref=e172] [cursor=pointer]:
+          - /url: /game/a-shedletsky-pov
+          - generic [ref=e174] [cursor=pointer]:
+            - generic [ref=e175] [cursor=pointer]:
+              - img "A Shedletsky POV" [ref=e176] [cursor=pointer]
+              - img [ref=e179] [cursor=pointer]
+              - generic [ref=e182] [cursor=pointer]: NEW
+            - generic [ref=e183] [cursor=pointer]:
+              - heading "A Shedletsky POV" [level=3] [ref=e184] [cursor=pointer]
+              - button "Play Now" [ref=e186] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Deer Adventure NEW Deer Adventure Play Now" [ref=e187] [cursor=pointer]:
+          - /url: /game/deer-adventure
+          - generic [ref=e189] [cursor=pointer]:
+            - generic [ref=e190] [cursor=pointer]:
+              - img "Deer Adventure" [ref=e191] [cursor=pointer]
+              - img [ref=e194] [cursor=pointer]
+              - generic [ref=e197] [cursor=pointer]: NEW
+            - generic [ref=e198] [cursor=pointer]:
+              - heading "Deer Adventure" [level=3] [ref=e199] [cursor=pointer]
+              - button "Play Now" [ref=e201] [cursor=pointer]:
+                - img
+                - text: Play Now
+        - link "Take Care of Shadow Milk NEW Take Care of Shadow Milk Play Now" [ref=e202] [cursor=pointer]:
+          - /url: /game/cut-the-rope
+          - generic [ref=e204] [cursor=pointer]:
+            - generic [ref=e205] [cursor=pointer]:
+              - img "Take Care of Shadow Milk" [ref=e206] [cursor=pointer]
+              - img [ref=e209] [cursor=pointer]
+              - generic [ref=e212] [cursor=pointer]: NEW
+            - generic [ref=e213] [cursor=pointer]:
+              - heading "Take Care of Shadow Milk" [level=3] [ref=e214] [cursor=pointer]
+              - button "Play Now" [ref=e216] [cursor=pointer]:
+                - img
+                - text: Play Now
+      - generic [ref=e219]:
+        - img [ref=e220]
+        - heading "More New Games Coming Soon" [level=3] [ref=e222]
+        - paragraph [ref=e223]: We regularly add new games to our platform. Check back often for the latest releases!
+        - link "Browse All Games" [ref=e224] [cursor=pointer]:
+          - /url: /
+          - button "Browse All Games" [ref=e225] [cursor=pointer]:
+            - img
+            - text: Browse All Games
+      - generic [ref=e226]:
+        - heading "Explore Other Categories" [level=3] [ref=e227]
+        - generic [ref=e228]:
+          - link "Hot Games" [ref=e229] [cursor=pointer]:
+            - /url: /hot-games
+            - button "Hot Games" [ref=e230] [cursor=pointer]:
+              - img
+              - text: Hot Games
+          - link "All Games" [ref=e231] [cursor=pointer]:
+            - /url: /
+            - button "All Games" [ref=e232] [cursor=pointer]:
+              - img
+              - text: All Games
+    - generic [ref=e234]:
+      - heading "You might also like" [level=2] [ref=e235]
+      - generic [ref=e236]:
+        - link "Deer Adventure Deer Adventure 4.4" [ref=e237] [cursor=pointer]:
+          - /url: /game/deer-adventure
+          - generic [ref=e238] [cursor=pointer]:
+            - generic [ref=e239] [cursor=pointer]:
+              - img "Deer Adventure" [ref=e240] [cursor=pointer]
+              - img [ref=e244] [cursor=pointer]
+            - generic [ref=e246] [cursor=pointer]:
+              - heading "Deer Adventure" [level=3] [ref=e247] [cursor=pointer]
+              - generic [ref=e249] [cursor=pointer]:
+                - img [ref=e250] [cursor=pointer]
+                - generic [ref=e252] [cursor=pointer]: "4.4"
+        - link "Elastic Man Elastic Man 4" [ref=e253] [cursor=pointer]:
+          - /url: /game/elastic-man
+          - generic [ref=e254] [cursor=pointer]:
+            - generic [ref=e255] [cursor=pointer]:
+              - img "Elastic Man" [ref=e256] [cursor=pointer]
+              - img [ref=e260] [cursor=pointer]
+            - generic [ref=e262] [cursor=pointer]:
+              - heading "Elastic Man" [level=3] [ref=e263] [cursor=pointer]
+              - generic [ref=e265] [cursor=pointer]:
+                - img [ref=e266] [cursor=pointer]
+                - generic [ref=e268] [cursor=pointer]: "4"
+        - link "Take Care of Your Own Burning Spice Take Care of Your Own Burning Spice 4.5" [ref=e269] [cursor=pointer]:
+          - /url: /game/take-care-of-your-own-burning-spice
+          - generic [ref=e270] [cursor=pointer]:
+            - generic [ref=e271] [cursor=pointer]:
+              - img "Take Care of Your Own Burning Spice" [ref=e272] [cursor=pointer]
+              - img [ref=e276] [cursor=pointer]
+            - generic [ref=e278] [cursor=pointer]:
+              - heading "Take Care of Your Own Burning Spice" [level=3] [ref=e279] [cursor=pointer]
+              - generic [ref=e281] [cursor=pointer]:
+                - img [ref=e282] [cursor=pointer]
+                - generic [ref=e284] [cursor=pointer]: "4.5"
+        - link "Take Care of Shadow Milk Take Care of Shadow Milk 5" [ref=e285] [cursor=pointer]:
+          - /url: /game/cut-the-rope
+          - generic [ref=e286] [cursor=pointer]:
+            - generic [ref=e287] [cursor=pointer]:
+              - img "Take Care of Shadow Milk" [ref=e288] [cursor=pointer]
+              - img [ref=e292] [cursor=pointer]
+            - generic [ref=e294] [cursor=pointer]:
+              - heading "Take Care of Shadow Milk" [level=3] [ref=e295] [cursor=pointer]
+              - generic [ref=e297] [cursor=pointer]:
+                - img [ref=e298] [cursor=pointer]
+                - generic [ref=e300] [cursor=pointer]: "5"
+        - link "Take Care of Your Own Hollyberry Take Care of Your Own Hollyberry 4" [ref=e301] [cursor=pointer]:
+          - /url: /game/take-care-of-your-own-hollyberry
+          - generic [ref=e302] [cursor=pointer]:
+            - generic [ref=e303] [cursor=pointer]:
+              - img "Take Care of Your Own Hollyberry" [ref=e304] [cursor=pointer]
+              - img [ref=e308] [cursor=pointer]
+            - generic [ref=e310] [cursor=pointer]:
+              - heading "Take Care of Your Own Hollyberry" [level=3] [ref=e311] [cursor=pointer]
+              - generic [ref=e313] [cursor=pointer]:
+                - img [ref=e314] [cursor=pointer]
+                - generic [ref=e316] [cursor=pointer]: "4"
+        - link "Curve Rush IO Curve Rush IO 4" [ref=e317] [cursor=pointer]:
+          - /url: /game/curve-rush-io
+          - generic [ref=e318] [cursor=pointer]:
+            - generic [ref=e319] [cursor=pointer]:
+              - img "Curve Rush IO" [ref=e320] [cursor=pointer]
+              - img [ref=e324] [cursor=pointer]
+            - generic [ref=e326] [cursor=pointer]:
+              - heading "Curve Rush IO" [level=3] [ref=e327] [cursor=pointer]
+              - generic [ref=e329] [cursor=pointer]:
+                - img [ref=e330] [cursor=pointer]
+                - generic [ref=e332] [cursor=pointer]: "4"
+        - link "Escape Raid Escape Raid 4.5" [ref=e333] [cursor=pointer]:
+          - /url: /game/escape-raid
+          - generic [ref=e334] [cursor=pointer]:
+            - generic [ref=e335] [cursor=pointer]:
+              - img "Escape Raid" [ref=e336] [cursor=pointer]
+              - img [ref=e340] [cursor=pointer]
+            - generic [ref=e342] [cursor=pointer]:
+              - heading "Escape Raid" [level=3] [ref=e343] [cursor=pointer]
+              - generic [ref=e345] [cursor=pointer]:
+                - img [ref=e346] [cursor=pointer]
+                - generic [ref=e348] [cursor=pointer]: "4.5"
+        - link "Chicken Flip Chicken Flip 4" [ref=e349] [cursor=pointer]:
+          - /url: /game/chicken-flip
+          - generic [ref=e350] [cursor=pointer]:
+            - generic [ref=e351] [cursor=pointer]:
+              - img "Chicken Flip" [ref=e352] [cursor=pointer]
+              - img [ref=e356] [cursor=pointer]
+            - generic [ref=e358] [cursor=pointer]:
+              - heading "Chicken Flip" [level=3] [ref=e359] [cursor=pointer]
+              - generic [ref=e361] [cursor=pointer]:
+                - img [ref=e362] [cursor=pointer]
+                - generic [ref=e364] [cursor=pointer]: "4"
+    - contentinfo [ref=e365]:
+      - generic [ref=e366]:
+        - generic [ref=e367]:
+          - generic [ref=e368]:
+            - generic [ref=e369]:
+              - img [ref=e370]
+              - generic [ref=e372]: Free Play I'm Not a Robot Game
+            - paragraph [ref=e373]: Proving Humanity in the Digital Panopticon!
+          - generic [ref=e374]:
+            - heading [level=3]
+            - navigation [ref=e375]:
+              - link "About Us" [ref=e376] [cursor=pointer]:
+                - /url: /about
+              - link "Privacy Policy" [ref=e377] [cursor=pointer]:
+                - /url: /privacy
+              - link "Terms of Service" [ref=e378] [cursor=pointer]:
+                - /url: /terms
+              - link "Contact Us" [ref=e379] [cursor=pointer]:
+                - /url: /contact
+        - paragraph [ref=e382]: "@Free Play I'm Not a Robot Game. I'm Not a Robot is an independent website. It is not affiliated with any site."
+  - alert [ref=e383]: New Games - Free Play I'm Not a Robot Game
+```

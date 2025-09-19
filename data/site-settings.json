@@ -1,0 +1,106 @@
+{
+  "homepage": {
+    "heroSection": {
+      "enabled": true,
+      "title": "I'm Not a Robot Free Play",
+      "subtitle": "Welcome to the I'm Not a Robot Free Play!",
+      "backgroundGradient": "from-blue-400 to-purple-600",
+      "showPlayButton": true
+    },
+    "featuredGames": {
+      "enabled": true,
+      "title": "Featured Games",
+      "limit": 8
+    },
+    "newGames": {
+      "enabled": true,
+      "title": "New Games",
+      "limit": 8,
+      "showOnHomepage": true
+    },
+    "hotGames": {
+      "enabled": true,
+      "title": "Hot Games",
+      "limit": 8,
+      "showOnHomepage": true,
+      "showInSidebar": true
+    },
+    "categories": {
+      "enabled": true,
+      "showOnHomepage": false,
+      "limit": 10
+    }
+  },
+  "gamePages": {
+    "showRelatedGames": true,
+    "relatedGamesLimit": 6,
+    "enableComments": false,
+    "enableRatings": true,
+    "enableSharing": true,
+    "enableFullscreen": true,
+    "showGameInfo": true,
+    "showInstructions": true
+  },
+  "layout": {
+    "header": {
+      "showLogo": true,
+      "showNavigation": true,
+      "showSearch": true,
+      "sticky": true
+    },
+    "footer": {
+      "showSocialLinks": true,
+      "showLegalLinks": true,
+      "showSitemap": false,
+      "copyrightText": "© 2025 GAMES. All rights reserved."
+    },
+    "sidebar": {
+      "enabled": true,
+      "position": "right",
+      "showHotGames": true,
+      "showCategories": false,
+      "showAds": false
+    }
+  },
+  "features": {
+    "search": {
+      "enabled": true,
+      "placeholder": "Search games...",
+      "showSuggestions": true,
+      "maxSuggestions": 5
+    },
+    "favorites": {
+      "enabled": true,
+      "requireLogin": false,
+      "storageType": "localStorage"
+    },
+    "recentlyPlayed": {
+      "enabled": true,
+      "limit": 10,
+      "storageType": "localStorage"
+    },
+    "gameStats": {
+      "trackViews": true,
+      "trackPlayTime": true,
+      "trackCompletions": false
+    }
+  },
+  "performance": {
+    "lazyLoadImages": true,
+    "preloadNextImages": 3,
+    "enableServiceWorker": false,
+    "enableCaching": true,
+    "compressImages": true
+  },
+  "monetization": {
+    "adsEnabled": false,
+    "adProvider": "google",
+    "adPositions": {
+      "header": false,
+      "sidebar": false,
+      "betweenGames": false,
+      "gamePages": false
+    },
+    "affiliateLinks": false
+  }
+}

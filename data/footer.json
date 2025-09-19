@@ -1,0 +1,140 @@
+{
+  "branding": {
+    "showLogo": true,
+    "logoText": "",
+    "logoIcon": "gamepad2",
+    "description": "Proving Humanity in the Digital Panopticon!",
+    "customDescription": ""
+  },
+  "navigation": {
+    "isVisible": true,
+    "title": "",
+    "showTitle": true,
+    "layout": "horizontal",
+    "links": [
+      {
+        "id": "about",
+        "label": "About Us",
+        "url": "/about",
+        "isVisible": true,
+        "isExternal": false,
+        "order": 1
+      },
+      {
+        "id": "privacy",
+        "label": "Privacy Policy",
+        "url": "/privacy",
+        "isVisible": true,
+        "isExternal": false,
+        "order": 2
+      },
+      {
+        "id": "terms",
+        "label": "Terms of Service",
+        "url": "/terms",
+        "isVisible": true,
+        "isExternal": false,
+        "order": 3
+      },
+      {
+        "id": "contact",
+        "label": "Contact Us",
+        "url": "/contact",
+        "isVisible": true,
+        "isExternal": false,
+        "order": 4
+      }
+    ]
+  },
+  "socialMedia": {
+    "isVisible": false,
+    "title": "Follow Us",
+    "links": [
+      {
+        "id": "twitter",
+        "platform": "Twitter",
+        "url": "",
+        "icon": "twitter",
+        "isVisible": false,
+        "order": 1
+      },
+      {
+        "id": "facebook",
+        "platform": "Facebook",
+        "url": "",
+        "icon": "facebook",
+        "isVisible": false,
+        "order": 2
+      },
+      {
+        "id": "instagram",
+        "platform": "Instagram",
+        "url": "",
+        "icon": "instagram",
+        "isVisible": false,
+        "order": 3
+      },
+      {
+        "id": "youtube",
+        "platform": "YouTube",
+        "url": "",
+        "icon": "youtube",
+        "isVisible": false,
+        "order": 4
+      },
+      {
+        "id": "discord",
+        "platform": "Discord",
+        "url": "",
+        "icon": "messageCircle",
+        "isVisible": false,
+        "order": 5
+      }
+    ]
+  },
+  "quickLinks": {
+    "isVisible": false,
+    "title": "Quick Links",
+    "links": [
+      {
+        "id": "hot-games",
+        "label": "Hot Games",
+        "url": "/hot-games",
+        "isVisible": true,
+        "isExternal": false,
+        "order": 1
+      },
+      {
+        "id": "new-games",
+        "label": "New Games",
+        "url": "/new-games",
+        "isVisible": true,
+        "isExternal": false,
+        "order": 2
+      }
+    ]
+  },
+  "newsletter": {
+    "isVisible": false,
+    "title": "Stay Update",
+    "description": "Get the latest gaming news and updates",
+    "placeholder": "Enter your email",
+    "buttonText": "Subscribe"
+  },
+  "copyright": {
+    "isVisible": true,
+    "text": "@{siteName}.  I'm Not a Robot is an independent website. It is not affiliated with any site.",
+    "customText": ""
+  },
+  "friendlyLinks": {
+    "isVisible": true
+  },
+  "layout": {
+    "columns": 2,
+    "backgroundColor": "gray-100",
+    "textColor": "gray-600",
+    "linkHoverColor": "blue-600",
+    "borderColor": "gray-200",
+    "spacing": "normal"
+  }
+}

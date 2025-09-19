@@ -1,0 +1,12 @@
+{
+  "links": [],
+  "settings": {
+    "isVisible": true,
+    "title": "Friendly Links",
+    "subtitle": "Check out our partner gaming sites",
+    "maxLinksToShow": 10,
+    "openInNewTab": true,
+    "showLogo": true,
+    "showDescription": true
+  }
+}

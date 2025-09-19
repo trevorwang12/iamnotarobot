@@ -1,0 +1,399 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img [ref=e8]
+          - link "Free Play I'm Not a Robot Game" [ref=e10] [cursor=pointer]:
+            - /url: /
+        - navigation [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "New Games" [ref=e13] [cursor=pointer]:
+            - /url: /new-games
+          - link "Hot Games" [ref=e14] [cursor=pointer]:
+            - /url: /hot-games
+          - generic [ref=e15]:
+            - textbox "Search games..." [ref=e16]
+            - img
+    - generic [ref=e17]:
+      - heading "Free Play I'm Not a Robot Game - Best Free Online Games" [level=1] [ref=e18]
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22]:
+            - img "I'm Not a Robot" [ref=e24]
+            - generic [ref=e25]:
+              - generic [ref=e26]:
+                - heading "I'm Not a Robot" [level=2] [ref=e27]
+                - paragraph [ref=e28]: I'm Not a Robot
+                - button "PLAY NOW" [ref=e30] [cursor=pointer]:
+                  - img
+                  - text: PLAY NOW
+              - img "I'm Not a Robot" [ref=e33]
+          - generic [ref=e34]:
+            - heading "New Games" [level=2] [ref=e35]
+            - generic [ref=e36]:
+              - link "meme-games game screenshot Memopolis" [ref=e37] [cursor=pointer]:
+                - /url: /game/memopolis
+                - generic [ref=e38] [cursor=pointer]:
+                  - img "meme-games game screenshot" [ref=e40] [cursor=pointer]
+                  - heading "Memopolis" [level=3] [ref=e42] [cursor=pointer]
+              - link "strategy game screenshot Curve Rush IO" [ref=e43] [cursor=pointer]:
+                - /url: /game/curve-rush-io
+                - generic [ref=e44] [cursor=pointer]:
+                  - img "strategy game screenshot" [ref=e46] [cursor=pointer]
+                  - heading "Curve Rush IO" [level=3] [ref=e48] [cursor=pointer]
+              - link "racing game screenshot Escape Raid" [ref=e49] [cursor=pointer]:
+                - /url: /game/escape-raid
+                - generic [ref=e50] [cursor=pointer]:
+                  - img "racing game screenshot" [ref=e52] [cursor=pointer]
+                  - heading "Escape Raid" [level=3] [ref=e54] [cursor=pointer]
+              - link "arcade game screenshot Chicken Flip" [ref=e55] [cursor=pointer]:
+                - /url: /game/chicken-flip
+                - generic [ref=e56] [cursor=pointer]:
+                  - img "arcade game screenshot" [ref=e58] [cursor=pointer]
+                  - heading "Chicken Flip" [level=3] [ref=e60] [cursor=pointer]
+              - link "arcade game screenshot Kickback Dash" [ref=e61] [cursor=pointer]:
+                - /url: /game/kickback-dash
+                - generic [ref=e62] [cursor=pointer]:
+                  - img "arcade game screenshot" [ref=e64] [cursor=pointer]
+                  - heading "Kickback Dash" [level=3] [ref=e66] [cursor=pointer]
+              - link "simulation game screenshot Wacky Flip" [ref=e67] [cursor=pointer]:
+                - /url: /game/wacky-flip
+                - generic [ref=e68] [cursor=pointer]:
+                  - img "simulation game screenshot" [ref=e70] [cursor=pointer]
+                  - heading "Wacky Flip" [level=3] [ref=e72] [cursor=pointer]
+              - link "strategy game screenshot Agar.io" [ref=e73] [cursor=pointer]:
+                - /url: /game/agario
+                - generic [ref=e74] [cursor=pointer]:
+                  - img "strategy game screenshot" [ref=e76] [cursor=pointer]
+                  - heading "Agar.io" [level=3] [ref=e78] [cursor=pointer]
+              - link "casual game screenshot Take Care of Your Own Hollyberry" [ref=e79] [cursor=pointer]:
+                - /url: /game/take-care-of-your-own-hollyberry
+                - generic [ref=e80] [cursor=pointer]:
+                  - img "casual game screenshot" [ref=e82] [cursor=pointer]
+                  - heading "Take Care of Your Own Hollyberry" [level=3] [ref=e84] [cursor=pointer]
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - heading "I'm Not a Robot Splendid Moment" [level=2] [ref=e88]
+              - paragraph [ref=e89]: Discover Amazing Games
+            - generic [ref=e90]:
+              - generic [ref=e93]:
+                - img "I'm Not a Robot Free Play" [ref=e95]
+                - generic [ref=e96]:
+                  - heading "I'm Not a Robot Free Play" [level=3] [ref=e97]
+                  - paragraph [ref=e98]: I'm Not a Robot
+              - generic [ref=e101]:
+                - img "I'm Not a Robot Screenshot" [ref=e103]
+                - generic [ref=e104]:
+                  - heading "I'm Not a Robot Screenshot" [level=3] [ref=e105]
+                  - paragraph [ref=e106]: I'm Not a Robot Screenshot
+              - generic [ref=e109]:
+                - img "I'm Not a Robot Moment" [ref=e111]
+                - generic [ref=e112]:
+                  - heading "I'm Not a Robot Moment" [level=3] [ref=e113]
+                  - paragraph [ref=e114]: I'm Not a Robot Moment
+              - generic [ref=e117]:
+                - img "I'm Not a Robot Settings" [ref=e119]
+                - generic [ref=e120]:
+                  - heading "I'm Not a Robot Settings" [level=3] [ref=e121]
+                  - paragraph [ref=e122]: I'm Not a Robot Settings
+        - generic [ref=e124]:
+          - heading "Hot games" [level=3] [ref=e125]
+          - generic [ref=e126]:
+            - link "Take Care of Shadow Milk ⭐5 Take Care of Shadow Milk" [ref=e127] [cursor=pointer]:
+              - /url: /game/cut-the-rope
+              - generic [ref=e128] [cursor=pointer]:
+                - generic [ref=e129] [cursor=pointer]:
+                  - img "Take Care of Shadow Milk" [ref=e130] [cursor=pointer]
+                  - generic [ref=e132] [cursor=pointer]: ⭐5
+                - heading "Take Care of Shadow Milk" [level=3] [ref=e134] [cursor=pointer]
+            - link "Take Care of Your Own Hollyberry ⭐4 Take Care of Your Own Hollyberry" [ref=e135] [cursor=pointer]:
+              - /url: /game/take-care-of-your-own-hollyberry
+              - generic [ref=e136] [cursor=pointer]:
+                - generic [ref=e137] [cursor=pointer]:
+                  - img "Take Care of Your Own Hollyberry" [ref=e138] [cursor=pointer]
+                  - generic [ref=e140] [cursor=pointer]: ⭐4
+                - heading "Take Care of Your Own Hollyberry" [level=3] [ref=e142] [cursor=pointer]
+            - link "Elastic Man ⭐4 Elastic Man" [ref=e143] [cursor=pointer]:
+              - /url: /game/elastic-man
+              - generic [ref=e144] [cursor=pointer]:
+                - generic [ref=e145] [cursor=pointer]:
+                  - img "Elastic Man" [ref=e146] [cursor=pointer]
+                  - generic [ref=e148] [cursor=pointer]: ⭐4
+                - heading "Elastic Man" [level=3] [ref=e150] [cursor=pointer]
+            - link "Take Care of Your Own Burning Spice ⭐4.5 Take Care of Your Own Burning Spice" [ref=e151] [cursor=pointer]:
+              - /url: /game/take-care-of-your-own-burning-spice
+              - generic [ref=e152] [cursor=pointer]:
+                - generic [ref=e153] [cursor=pointer]:
+                  - img "Take Care of Your Own Burning Spice" [ref=e154] [cursor=pointer]
+                  - generic [ref=e156] [cursor=pointer]: ⭐4.5
+                - heading "Take Care of Your Own Burning Spice" [level=3] [ref=e158] [cursor=pointer]
+            - link "A Shedletsky POV ⭐4 A Shedletsky POV" [ref=e159] [cursor=pointer]:
+              - /url: /game/a-shedletsky-pov
+              - generic [ref=e160] [cursor=pointer]:
+                - generic [ref=e161] [cursor=pointer]:
+                  - img "A Shedletsky POV" [ref=e162] [cursor=pointer]
+                  - generic [ref=e164] [cursor=pointer]: ⭐4
+                - heading "A Shedletsky POV" [level=3] [ref=e166] [cursor=pointer]
+            - link "Deer Adventure ⭐4.4 Deer Adventure" [ref=e167] [cursor=pointer]:
+              - /url: /game/deer-adventure
+              - generic [ref=e168] [cursor=pointer]:
+                - generic [ref=e169] [cursor=pointer]:
+                  - img "Deer Adventure" [ref=e170] [cursor=pointer]
+                  - generic [ref=e172] [cursor=pointer]: ⭐4.4
+                - heading "Deer Adventure" [level=3] [ref=e174] [cursor=pointer]
+            - link "Agar.io ⭐4.5 Agar.io" [ref=e175] [cursor=pointer]:
+              - /url: /game/agario
+              - generic [ref=e176] [cursor=pointer]:
+                - generic [ref=e177] [cursor=pointer]:
+                  - img "Agar.io" [ref=e178] [cursor=pointer]
+                  - generic [ref=e180] [cursor=pointer]: ⭐4.5
+                - heading "Agar.io" [level=3] [ref=e182] [cursor=pointer]
+            - link "Escape Raid ⭐4.5 Escape Raid" [ref=e183] [cursor=pointer]:
+              - /url: /game/escape-raid
+              - generic [ref=e184] [cursor=pointer]:
+                - generic [ref=e185] [cursor=pointer]:
+                  - img "Escape Raid" [ref=e186] [cursor=pointer]
+                  - generic [ref=e188] [cursor=pointer]: ⭐4.5
+                - heading "Escape Raid" [level=3] [ref=e190] [cursor=pointer]
+    - generic [ref=e195]:
+      - banner [ref=e196]:
+        - text: ▣
+        - heading "I'm Not a Robot" [level=1] [ref=e197]
+        - paragraph [ref=e198]: "Proving Humanity in the Digital Panopticon: An Analysis of Neal Agarwal's Interactive Satire"
+      - generic [ref=e199]:
+        - heading "⭐ Features" [level=2] [ref=e200]:
+          - generic [ref=e201]: ⭐
+          - text: Features
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e204]: 🎮
+            - heading "Interactive Gameplay" [level=3] [ref=e205]
+            - paragraph [ref=e206]: Progressive difficulty levels that mirror and satirize real CAPTCHA systems, from simple image recognition to impossible tasks.
+          - generic [ref=e207]:
+            - generic [ref=e208]: 🧠
+            - heading "Psychological Commentary" [level=3] [ref=e209]
+            - paragraph [ref=e210]: Deep exploration of digital identity verification and the absurdity of proving humanity to machines.
+          - generic [ref=e211]:
+            - generic [ref=e212]: 🎭
+            - heading "Satirical Design" [level=3] [ref=e213]
+            - paragraph [ref=e214]: Masterful use of escalating frustration as a narrative device to critique algorithmic gatekeeping.
+          - generic [ref=e215]:
+            - generic [ref=e216]: 🌐
+            - heading "Cultural Relevance" [level=3] [ref=e217]
+            - paragraph [ref=e218]: Addresses contemporary anxieties about AI, automation, and the dehumanization of digital experiences.
+      - generic [ref=e219]:
+        - heading "❓ What Is It?" [level=2] [ref=e220]:
+          - generic [ref=e221]: ❓
+          - text: What Is It?
+        - generic [ref=e223]:
+          - heading "A Reverse Turing Test Experience" [level=3] [ref=e224]
+          - paragraph [ref=e225]: Neal Agarwal's "I'm Not a Robot" is an interactive web game that transforms the mundane CAPTCHA experience into a profound commentary on digital identity and algorithmic verification. Unlike traditional games, this piece functions as procedural satire, using escalating difficulty and absurd challenges to critique how technology attempts to quantify and validate humanity.
+        - paragraph [ref=e226]:
+          - strong [ref=e227]: "The Game Structure:"
+          - text: Players progress through 42 levels, starting with familiar CAPTCHA-style challenges (identifying stop signs, reading distorted text) and escalating to impossible or philosophical tasks (drawing perfect circles, expressing creativity, proving you have a soul).
+        - generic [ref=e228]:
+          - heading "Interactive Demo" [level=4] [ref=e229]
+          - generic [ref=e232] [cursor=pointer]: I'm not a robot
+          - paragraph [ref=e233]: Click to experience the familiar frustration
+        - paragraph [ref=e234]:
+          - strong [ref=e235]: "Cultural Context:"
+          - text: The game emerges at a cultural moment where digital identity verification has become ubiquitous, reflecting broader anxieties about AI, surveillance, and the constant need to prove our humanity to increasingly sophisticated automated systems.
+      - generic [ref=e236]:
+        - heading "🎯 How To Experience It" [level=2] [ref=e237]:
+          - generic [ref=e238]: 🎯
+          - text: How To Experience It
+        - list [ref=e239]:
+          - listitem [ref=e240]:
+            - strong [ref=e241]: "Access the Game:"
+            - text: Visit our website and find "I'm Not a Robot" among Neal Agarwal's collection of interactive experiences.
+          - listitem [ref=e242]:
+            - strong [ref=e243]: "Start Simple:"
+            - text: Begin with familiar CAPTCHA-style challenges like identifying images and reading distorted text.
+          - listitem [ref=e244]:
+            - strong [ref=e245]: "Embrace Frustration:"
+            - text: As levels progress, tasks become increasingly difficult and subjective. This frustration is intentional and central to the experience.
+          - listitem [ref=e246]:
+            - strong [ref=e247]: "Analyze Your Reactions:"
+            - text: Pay attention to your emotional responses as the game demands proof of creativity, soul, and grief.
+          - listitem [ref=e248]:
+            - strong [ref=e249]: "Reflect on the Message:"
+            - text: Consider how the game's escalating absurdity mirrors real-world algorithmic verification systems.
+        - generic [ref=e251]:
+          - heading "Pro Tips for Analysis" [level=3] [ref=e252]
+          - list [ref=e253]:
+            - listitem [ref=e254]:
+              - text: 🔍
+              - strong [ref=e255]: "Level 17 (Perfect Circle):"
+              - text: Notice how demanding machine-like precision from human bodies reveals inherent flaws in verification logic
+            - listitem [ref=e256]:
+              - text: 🎨
+              - strong [ref=e257]: "Level 25 (Creativity):"
+              - text: Observe how subjective tasks expose the impossibility of algorithmic judgment of human expression
+            - listitem [ref=e258]:
+              - text: 💔
+              - strong [ref=e259]: "Level 41 (Grieve):"
+              - text: Experience the absurdity of performing emotion for machine validation
+            - listitem [ref=e260]:
+              - text: 🤖
+              - strong [ref=e261]: "Level 42 (Reverse Turing):"
+              - text: Understand the game's ultimate revelation about the nature of human-machine interaction
+      - generic [ref=e262]:
+        - heading "💡 Why It Matters" [level=2] [ref=e263]:
+          - generic [ref=e264]: 💡
+          - text: Why It Matters
+        - heading "A Mirror to Digital Society" [level=3] [ref=e265]
+        - paragraph [ref=e266]: Agarwal's game functions as a crucial piece of digital folk art, using accessible web technologies to reflect our collective anxieties about algorithmic gatekeeping and digital dehumanization. It belongs to a movement seeking to revive the creative "Weird Web" in an era dominated by corporate platforms.
+        - heading "Key Cultural Contributions:" [level=3] [ref=e267]
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - heading "Procedural Satire" [level=4] [ref=e270]
+            - paragraph [ref=e271]: Unlike traditional narrative satire, the game uses interactive mechanics to immerse players in the systems being critiqued, making abstract concepts tangible.
+          - generic [ref=e272]:
+            - heading "Accessibility" [level=4] [ref=e273]
+            - paragraph [ref=e274]: Browser-based simplicity ensures the critique reaches a broad audience, functioning as democratic digital art.
+          - generic [ref=e275]:
+            - heading "Technological Critique" [level=4] [ref=e276]
+            - paragraph [ref=e277]: Exposes the flawed logic behind systems that attempt to measure humanity through algorithmic means.
+          - generic [ref=e278]:
+            - heading "Emotional Resonance" [level=4] [ref=e279]
+            - paragraph [ref=e280]: Transforms abstract technological concerns into visceral, personal experiences of frustration and recognition.
+        - generic [ref=e282]:
+          - heading "The Agarwal Aesthetic" [level=3] [ref=e283]
+          - paragraph [ref=e284]: Part of Neal Agarwal's broader portfolio of interactive thought experiments, including "The Password Game" and "Stimulation Clicker," this work represents a new form of digital commentary that uses playful interaction to explore serious themes about technology, identity, and human experience in the 21st century.
+      - generic [ref=e285]:
+        - heading "❔ Frequently Asked Questions" [level=2] [ref=e286]:
+          - generic [ref=e287]: ❔
+          - text: Frequently Asked Questions
+        - generic [ref=e289] [cursor=pointer]:
+          - generic [ref=e290] [cursor=pointer]: What is the hardest level in "I'm Not a Robot"?
+          - generic [ref=e291] [cursor=pointer]: +
+        - generic [ref=e293] [cursor=pointer]:
+          - generic [ref=e294] [cursor=pointer]: What is the point of the game?
+          - generic [ref=e295] [cursor=pointer]: +
+        - generic [ref=e297] [cursor=pointer]:
+          - generic [ref=e298] [cursor=pointer]: How does it relate to real CAPTCHAs?
+          - generic [ref=e299] [cursor=pointer]: +
+        - generic [ref=e301] [cursor=pointer]:
+          - generic [ref=e302] [cursor=pointer]: What makes Neal Agarwal's work unique?
+          - generic [ref=e303] [cursor=pointer]: +
+        - generic [ref=e305] [cursor=pointer]:
+          - generic [ref=e306] [cursor=pointer]: Is there a "correct" way to complete the subjective levels?
+          - generic [ref=e307] [cursor=pointer]: +
+    - generic [ref=e309]:
+      - heading "You might also like" [level=2] [ref=e310]
+      - generic [ref=e311]:
+        - link "Deer Adventure Deer Adventure 4.4" [ref=e312] [cursor=pointer]:
+          - /url: /game/deer-adventure
+          - generic [ref=e313] [cursor=pointer]:
+            - generic [ref=e314] [cursor=pointer]:
+              - img "Deer Adventure" [ref=e315] [cursor=pointer]
+              - img [ref=e319] [cursor=pointer]
+            - generic [ref=e321] [cursor=pointer]:
+              - heading "Deer Adventure" [level=3] [ref=e322] [cursor=pointer]
+              - generic [ref=e324] [cursor=pointer]:
+                - img [ref=e325] [cursor=pointer]
+                - generic [ref=e327] [cursor=pointer]: "4.4"
+        - link "Elastic Man Elastic Man 4" [ref=e328] [cursor=pointer]:
+          - /url: /game/elastic-man
+          - generic [ref=e329] [cursor=pointer]:
+            - generic [ref=e330] [cursor=pointer]:
+              - img "Elastic Man" [ref=e331] [cursor=pointer]
+              - img [ref=e335] [cursor=pointer]
+            - generic [ref=e337] [cursor=pointer]:
+              - heading "Elastic Man" [level=3] [ref=e338] [cursor=pointer]
+              - generic [ref=e340] [cursor=pointer]:
+                - img [ref=e341] [cursor=pointer]
+                - generic [ref=e343] [cursor=pointer]: "4"
+        - link "Take Care of Your Own Burning Spice Take Care of Your Own Burning Spice 4.5" [ref=e344] [cursor=pointer]:
+          - /url: /game/take-care-of-your-own-burning-spice
+          - generic [ref=e345] [cursor=pointer]:
+            - generic [ref=e346] [cursor=pointer]:
+              - img "Take Care of Your Own Burning Spice" [ref=e347] [cursor=pointer]
+              - img [ref=e351] [cursor=pointer]
+            - generic [ref=e353] [cursor=pointer]:
+              - heading "Take Care of Your Own Burning Spice" [level=3] [ref=e354] [cursor=pointer]
+              - generic [ref=e356] [cursor=pointer]:
+                - img [ref=e357] [cursor=pointer]
+                - generic [ref=e359] [cursor=pointer]: "4.5"
+        - link "Take Care of Shadow Milk Take Care of Shadow Milk 5" [ref=e360] [cursor=pointer]:
+          - /url: /game/cut-the-rope
+          - generic [ref=e361] [cursor=pointer]:
+            - generic [ref=e362] [cursor=pointer]:
+              - img "Take Care of Shadow Milk" [ref=e363] [cursor=pointer]
+              - img [ref=e367] [cursor=pointer]
+            - generic [ref=e369] [cursor=pointer]:
+              - heading "Take Care of Shadow Milk" [level=3] [ref=e370] [cursor=pointer]
+              - generic [ref=e372] [cursor=pointer]:
+                - img [ref=e373] [cursor=pointer]
+                - generic [ref=e375] [cursor=pointer]: "5"
+        - link "Take Care of Your Own Hollyberry Take Care of Your Own Hollyberry 4" [ref=e376] [cursor=pointer]:
+          - /url: /game/take-care-of-your-own-hollyberry
+          - generic [ref=e377] [cursor=pointer]:
+            - generic [ref=e378] [cursor=pointer]:
+              - img "Take Care of Your Own Hollyberry" [ref=e379] [cursor=pointer]
+              - img [ref=e383] [cursor=pointer]
+            - generic [ref=e385] [cursor=pointer]:
+              - heading "Take Care of Your Own Hollyberry" [level=3] [ref=e386] [cursor=pointer]
+              - generic [ref=e388] [cursor=pointer]:
+                - img [ref=e389] [cursor=pointer]
+                - generic [ref=e391] [cursor=pointer]: "4"
+        - link "Escape Raid Escape Raid 4.5" [ref=e392] [cursor=pointer]:
+          - /url: /game/escape-raid
+          - generic [ref=e393] [cursor=pointer]:
+            - generic [ref=e394] [cursor=pointer]:
+              - img "Escape Raid" [ref=e395] [cursor=pointer]
+              - img [ref=e399] [cursor=pointer]
+            - generic [ref=e401] [cursor=pointer]:
+              - heading "Escape Raid" [level=3] [ref=e402] [cursor=pointer]
+              - generic [ref=e404] [cursor=pointer]:
+                - img [ref=e405] [cursor=pointer]
+                - generic [ref=e407] [cursor=pointer]: "4.5"
+        - link "A Shedletsky POV A Shedletsky POV 4" [ref=e408] [cursor=pointer]:
+          - /url: /game/a-shedletsky-pov
+          - generic [ref=e409] [cursor=pointer]:
+            - generic [ref=e410] [cursor=pointer]:
+              - img "A Shedletsky POV" [ref=e411] [cursor=pointer]
+              - img [ref=e415] [cursor=pointer]
+            - generic [ref=e417] [cursor=pointer]:
+              - heading "A Shedletsky POV" [level=3] [ref=e418] [cursor=pointer]
+              - generic [ref=e420] [cursor=pointer]:
+                - img [ref=e421] [cursor=pointer]
+                - generic [ref=e423] [cursor=pointer]: "4"
+        - link "Wacky Flip Wacky Flip 4" [ref=e424] [cursor=pointer]:
+          - /url: /game/wacky-flip
+          - generic [ref=e425] [cursor=pointer]:
+            - generic [ref=e426] [cursor=pointer]:
+              - img "Wacky Flip" [ref=e427] [cursor=pointer]
+              - img [ref=e431] [cursor=pointer]
+            - generic [ref=e433] [cursor=pointer]:
+              - heading "Wacky Flip" [level=3] [ref=e434] [cursor=pointer]
+              - generic [ref=e436] [cursor=pointer]:
+                - img [ref=e437] [cursor=pointer]
+                - generic [ref=e439] [cursor=pointer]: "4"
+    - contentinfo [ref=e440]:
+      - generic [ref=e441]:
+        - generic [ref=e442]:
+          - generic [ref=e443]:
+            - generic [ref=e444]:
+              - img [ref=e445]
+              - generic [ref=e447]: Free Play I'm Not a Robot Game
+            - paragraph [ref=e448]: Proving Humanity in the Digital Panopticon!
+          - generic [ref=e449]:
+            - heading [level=3]
+            - navigation [ref=e450]:
+              - link "About Us" [ref=e451] [cursor=pointer]:
+                - /url: /about
+              - link "Privacy Policy" [ref=e452] [cursor=pointer]:
+                - /url: /privacy
+              - link "Terms of Service" [ref=e453] [cursor=pointer]:
+                - /url: /terms
+              - link "Contact Us" [ref=e454] [cursor=pointer]:
+                - /url: /contact
+        - paragraph [ref=e457]: "@Free Play I'm Not a Robot Game. I'm Not a Robot is an independent website. It is not affiliated with any site."
+  - alert [ref=e458]
+```

@@ -1,0 +1,192 @@
+{
+  "hero": {
+    "isVisible": false,
+    "title": "GAMES",
+    "subtitle": "Best Online Gaming Platform",
+    "backgroundGradient": "from-blue-500 to-purple-600"
+  },
+  "featuredGame": {
+    "isVisible": true,
+    "showPlayButton": true
+  },
+  "newGames": {
+    "isVisible": true,
+    "title": "New Games",
+    "limit": 8,
+    "showViewAllButton": true
+  },
+  "features": {
+    "isVisible": false,
+    "title": "Why Play With Us",
+    "sections": {
+      "instantPlay": {
+        "isVisible": true,
+        "title": "Instant Play",
+        "description": "No downloads required. Play games directly in your browser."
+      },
+      "freeGames": {
+        "isVisible": true,
+        "title": "Free Games",
+        "description": "100% free to play. No hidden fees or subscriptions."
+      },
+      "highQuality": {
+        "isVisible": true,
+        "title": "High Quality",
+        "description": "Carefully curated games with excellent ratings and reviews."
+      },
+      "multipleCategories": {
+        "isVisible": true,
+        "title": "Multiple Categories",
+        "description": "Action, puzzle, strategy, casual - something for everyone."
+      },
+      "culturalRelevance": {
+        "isVisible": true,
+        "title": "Cultural Relevance",
+        "description": "Games that reflect current internet moments and community trends to keep the vibe fresh."
+      }
+    },
+    "sectionOrder": {
+      "instantPlay": 0,
+      "freeGames": 1,
+      "highQuality": 2,
+      "multipleCategories": 3,
+      "culturalRelevance": 4
+    }
+  },
+  "whatIs": {
+    "isVisible": false,
+    "title": "What is Our Gaming Platform?",
+    "content": {
+      "mainText": "Our platform is a comprehensive online gaming destination that brings you the best browser-based games from around the world. We've carefully selected each game to ensure quality, entertainment value, and seamless gameplay experience.",
+      "statsText": "From classic arcade games to modern indie creations, our library spans multiple genres and difficulty levels, making it perfect for both casual players and gaming enthusiasts.",
+      "gamesCount": "500+",
+      "playersCount": "1M+"
+    }
+  },
+  "howToPlay": {
+    "isVisible": false,
+    "title": "How to Get Started",
+    "steps": {
+      "step1": {
+        "title": "Browse Games",
+        "description": "Explore our collection of games by category, popularity, or search for specific titles."
+      },
+      "step2": {
+        "title": "Click & Play",
+        "description": "Simply click on any game to start playing instantly. No registration or download required."
+      },
+      "step3": {
+        "title": "Enjoy Gaming",
+        "description": "Have fun playing your favorite games and discover new ones to add to your collection."
+      }
+    }
+  },
+  "whyChooseUs": {
+    "isVisible": false,
+    "title": "Why Choose Our Platform?",
+    "premiumSection": {
+      "title": "Premium Gaming Experience",
+      "features": [
+        "Ad-free gaming with minimal interruptions",
+        "Regular updates with new games added weekly",
+        "Cross-platform compatibility on all devices"
+      ]
+    },
+    "communitySection": {
+      "title": "Community & Safety",
+      "features": [
+        "Safe and secure platform with no malware",
+        "Family-friendly content suitable for all ages",
+        "24/7 customer support and community help"
+      ]
+    }
+  },
+  "faq": {
+    "isVisible": false,
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "Do I need to create an account to play games?",
+        "answer": "No account required! You can start playing any game immediately without registration. However, creating an account allows you to save your progress and favorite games."
+      },
+      {
+        "question": "Are all games completely free?",
+        "answer": "Yes, all games on our platform are 100% free to play. We don't charge for access to any games, and there are no hidden fees or premium subscriptions required."
+      },
+      {
+        "question": "Do games work on mobile devices?",
+        "answer": "Most of our games are mobile-friendly and work great on smartphones and tablets. Games automatically adapt to your screen size for the best playing experience."
+      },
+      {
+        "question": "How often do you add new games?",
+        "answer": "We add new games regularly, typically several new titles each week. Check our \"New Games\" section to discover the latest additions to our collection."
+      },
+      {
+        "question": "Can I suggest games to be added?",
+        "answer": "Absolutely! We love hearing from our community. Contact us through our support page to suggest games you'd like to see added to our platform."
+      }
+    ]
+  },
+  "gameGallery": {
+    "isVisible": true,
+    "title": "I'm Not a Robot Splendid Moment",
+    "subtitle": "Discover Amazing Games",
+    "displayMode": "grid",
+    "columns": 4,
+    "showTitles": true,
+    "showDescriptions": true,
+    "images": [
+      {
+        "id": "img_1757918276851",
+        "title": "I'm Not a Robot Free Play",
+        "description": "I'm Not a Robot",
+        "src": "/uploads/1758243061174-qfdub0-PixPin_2025-09-19_08-41-13.webp",
+        "gameUrl": ""
+      },
+      {
+        "id": "img_1757919591652",
+        "title": "I'm Not a Robot Screenshot",
+        "description": "I'm Not a Robot Screenshot",
+        "src": "/uploads/1758243050179-dq1o86-PixPin_2025-09-19_08-41-34.webp",
+        "gameUrl": ""
+      },
+      {
+        "id": "img_1757919654540",
+        "title": "I'm Not a Robot Moment",
+        "description": "I'm Not a Robot Moment",
+        "src": "/uploads/1758243071391-fze1zy-PixPin_2025-09-19_08-42-16.webp",
+        "gameUrl": ""
+      },
+      {
+        "id": "img_1757919677366",
+        "title": "I'm Not a Robot Settings",
+        "description": "I'm Not a Robot Settings",
+        "src": "/uploads/1758243090938-ghhovf-PixPin_2025-09-19_08-43-44.webp",
+        "gameUrl": ""
+      }
+    ]
+  },
+  "youMightAlsoLike": {
+    "isVisible": true
+  },
+  "customHtmlSections": [
+    {
+      "id": "custom-html-1758204306984",
+      "title": "",
+      "content": "<!-- SEO optimized component for embedding -->\n<div class=\"robot-analysis-component\">\n\n    <style>\n        .robot-analysis-component {\n            font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;\n            line-height: 1.6;\n            color: #e0e6ed;\n            background: transparent;\n            position: relative;\n        }\n\n        .robot-analysis-component::before {\n            content: '';\n            position: absolute;\n            top: 0;\n            left: 0;\n            right: 0;\n            bottom: 0;\n            background:\n                radial-gradient(circle at 20% 80%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),\n                radial-gradient(circle at 80% 20%, rgba(255, 0, 255, 0.1) 0%, transparent 50%),\n                radial-gradient(circle at 40% 40%, rgba(0, 255, 127, 0.1) 0%, transparent 50%);\n            pointer-events: none;\n            z-index: -1;\n        }\n\n        .container {\n            max-width: 900px;\n            margin: 0 auto;\n            padding: 20px;\n            background: transparent;\n            position: relative;\n        }\n\n        .header {\n            text-align: center;\n            padding: 30px 20px;\n            border-bottom: 2px solid rgba(0, 255, 255, 0.3);\n            margin-bottom: 30px;\n            position: relative;\n            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(15, 23, 42, 0.9) 100%);\n            border-radius: 15px;\n            box-shadow:\n                0 0 30px rgba(0, 255, 255, 0.1),\n                inset 0 1px 0 rgba(255, 255, 255, 0.1);\n        }\n\n        .header::before {\n            content: \"▣\";\n            position: absolute;\n            top: -20px;\n            left: 50%;\n            transform: translateX(-50%);\n            font-size: 60px;\n            color: #00ffff;\n            text-shadow: 0 0 20px #00ffff;\n            animation: float 3s ease-in-out infinite, glow 2s ease-in-out infinite alternate;\n        }\n\n        @keyframes float {\n            0%, 100% { transform: translateX(-50%) translateY(0px); }\n            50% { transform: translateX(-50%) translateY(-10px); }\n        }\n\n        @keyframes glow {\n            from { text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff; }\n            to { text-shadow: 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff; }\n        }\n\n        .title {\n            font-size: 2.5rem;\n            font-weight: 700;\n            background: linear-gradient(45deg, #00ffff, #ff00ff, #00ff7f);\n            background-size: 200% 200%;\n            background-clip: text;\n            -webkit-background-clip: text;\n            -webkit-text-fill-color: transparent;\n            margin-bottom: 15px;\n            margin-top: 20px;\n            animation: rainbow 3s linear infinite;\n            text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);\n        }\n\n        @keyframes rainbow {\n            0% { background-position: 0% 50%; }\n            50% { background-position: 100% 50%; }\n            100% { background-position: 0% 50%; }\n        }\n\n        .subtitle {\n            font-size: 1.1rem;\n            color: #a1a1aa;\n            max-width: 600px;\n            margin: 0 auto;\n            text-shadow: 0 0 10px rgba(161, 161, 170, 0.3);\n            line-height: 1.5;\n        }\n\n        .section {\n            margin: 40px 0;\n            padding: 30px 25px;\n            background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.95) 100%);\n            border-radius: 15px;\n            box-shadow:\n                0 8px 25px rgba(0, 0, 0, 0.3),\n                0 0 0 1px rgba(0, 255, 255, 0.2),\n                inset 0 1px 0 rgba(255, 255, 255, 0.1);\n            border-left: 4px solid #00ffff;\n            transition: transform 0.3s ease, box-shadow 0.3s ease;\n            position: relative;\n            overflow: hidden;\n        }\n\n        .section::before {\n            content: '';\n            position: absolute;\n            top: 0;\n            left: -100%;\n            width: 100%;\n            height: 100%;\n            background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.1), transparent);\n            transition: left 0.5s ease;\n        }\n\n        .section:hover {\n            transform: translateY(-5px);\n            box-shadow:\n                0 20px 40px rgba(0, 0, 0, 0.4),\n                0 0 0 1px rgba(0, 255, 255, 0.4),\n                0 0 50px rgba(0, 255, 255, 0.1);\n        }\n\n        .section:hover::before {\n            left: 100%;\n        }\n\n        .section-title {\n            font-size: 2rem;\n            color: #00ffff;\n            margin-bottom: 25px;\n            display: flex;\n            align-items: center;\n            gap: 12px;\n            text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);\n        }\n\n        .section-icon {\n            width: 45px;\n            height: 45px;\n            background: linear-gradient(45deg, #00ffff, #ff00ff);\n            border-radius: 10px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            color: #000;\n            font-size: 1.3rem;\n            box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);\n            position: relative;\n            flex-shrink: 0;\n        }\n\n        .section-icon::after {\n            content: '';\n            position: absolute;\n            top: -2px;\n            left: -2px;\n            right: -2px;\n            bottom: -2px;\n            background: linear-gradient(45deg, #00ffff, #ff00ff, #00ff7f);\n            border-radius: 14px;\n            z-index: -1;\n            animation: rotate 4s linear infinite;\n        }\n\n        @keyframes rotate {\n            0% { transform: rotate(0deg); }\n            100% { transform: rotate(360deg); }\n        }\n\n        .features-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 25px;\n            margin-top: 25px;\n        }\n\n        .feature-card {\n            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(30, 41, 59, 0.9) 100%);\n            padding: 25px 20px;\n            border-radius: 15px;\n            text-align: center;\n            transition: transform 0.3s ease, box-shadow 0.3s ease;\n            border: 1px solid rgba(0, 255, 255, 0.2);\n            position: relative;\n            overflow: hidden;\n        }\n\n        .feature-card::before {\n            content: '';\n            position: absolute;\n            top: 0;\n            left: 0;\n            right: 0;\n            bottom: 0;\n            background: linear-gradient(45deg, rgba(0, 255, 255, 0.05), rgba(255, 0, 255, 0.05));\n            opacity: 0;\n            transition: opacity 0.3s ease;\n        }\n\n        .feature-card:hover {\n            transform: scale(1.05) translateY(-5px);\n            box-shadow: 0 20px 40px rgba(0, 255, 255, 0.2);\n        }\n\n        .feature-card:hover::before {\n            opacity: 1;\n        }\n\n        .feature-icon {\n            font-size: 3rem;\n            margin-bottom: 20px;\n            filter:\n                drop-shadow(0 0 10px #00ffff)\n                hue-rotate(180deg);\n        }\n\n        .feature-title {\n            font-size: 1.3rem;\n            font-weight: 600;\n            margin-bottom: 15px;\n            color: #00ffff;\n            text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);\n        }\n\n        .feature-description {\n            color: #a1a1aa;\n            line-height: 1.6;\n        }\n\n        .highlight-box {\n            background: linear-gradient(135deg, rgba(0, 255, 255, 0.1) 0%, rgba(255, 0, 255, 0.1) 100%);\n            color: #e0e6ed;\n            padding: 25px 20px;\n            border-radius: 15px;\n            margin: 25px 0;\n            position: relative;\n            overflow: hidden;\n            border: 2px solid rgba(0, 255, 255, 0.3);\n            box-shadow:\n                0 0 30px rgba(0, 255, 255, 0.1),\n                inset 0 1px 0 rgba(255, 255, 255, 0.1);\n        }\n\n        .highlight-box::before {\n            content: \"\";\n            position: absolute;\n            top: -50%;\n            left: -50%;\n            width: 200%;\n            height: 200%;\n            background: repeating-linear-gradient(\n                45deg,\n                transparent,\n                transparent 10px,\n                rgba(0, 255, 255, 0.1) 10px,\n                rgba(0, 255, 255, 0.1) 20px\n            );\n            animation: slide 20s linear infinite;\n        }\n\n        @keyframes slide {\n            0% { transform: translateX(-100%); }\n            100% { transform: translateX(100%); }\n        }\n\n        .highlight-content {\n            position: relative;\n            z-index: 1;\n        }\n\n        .steps-list {\n            list-style: none;\n            counter-reset: step-counter;\n        }\n\n        .steps-list li {\n            counter-increment: step-counter;\n            margin: 15px 0;\n            padding: 18px;\n            background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);\n            border-radius: 10px;\n            border-left: 3px solid #00ffff;\n            border: 1px solid rgba(0, 255, 255, 0.2);\n            position: relative;\n            padding-left: 70px;\n            color: #e0e6ed;\n        }\n\n        .steps-list li::before {\n            content: counter(step-counter);\n            position: absolute;\n            left: 20px;\n            top: 50%;\n            transform: translateY(-50%);\n            background: linear-gradient(45deg, #00ffff, #ff00ff);\n            color: #000;\n            width: 40px;\n            height: 40px;\n            border-radius: 12px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            font-weight: bold;\n            box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);\n        }\n\n        .faq-item {\n            margin: 20px 0;\n            border: 1px solid rgba(0, 255, 255, 0.2);\n            border-radius: 10px;\n            overflow: hidden;\n            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(15, 23, 42, 0.9) 100%);\n        }\n\n        .faq-question {\n            background: linear-gradient(135deg, rgba(0, 255, 255, 0.1) 0%, rgba(255, 0, 255, 0.1) 100%);\n            padding: 20px;\n            cursor: pointer;\n            font-weight: 600;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            transition: background 0.3s ease;\n            color: #00ffff;\n            text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);\n        }\n\n        .faq-question:hover {\n            background: linear-gradient(135deg, rgba(0, 255, 255, 0.2) 0%, rgba(255, 0, 255, 0.2) 100%);\n        }\n\n        .faq-answer {\n            padding: 20px;\n            background: rgba(0, 0, 0, 0.5);\n            border-top: 1px solid rgba(0, 255, 255, 0.3);\n            color: #a1a1aa;\n        }\n\n        .captcha-demo {\n            background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);\n            border: 2px dashed #00ffff;\n            border-radius: 15px;\n            padding: 30px 20px;\n            text-align: center;\n            margin: 25px 0;\n            box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);\n        }\n\n        .captcha-checkbox {\n            display: inline-flex;\n            align-items: center;\n            gap: 15px;\n            padding: 15px 25px;\n            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(30, 41, 59, 0.9) 100%);\n            border: 2px solid rgba(0, 255, 255, 0.3);\n            border-radius: 10px;\n            cursor: pointer;\n            transition: all 0.3s ease;\n            font-size: 1.1rem;\n            color: #e0e6ed;\n        }\n\n        .captcha-checkbox:hover {\n            border-color: #00ffff;\n            transform: scale(1.05);\n            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);\n        }\n\n        .checkbox {\n            width: 20px;\n            height: 20px;\n            border: 2px solid #00ffff;\n            border-radius: 3px;\n            position: relative;\n            background: rgba(0, 0, 0, 0.5);\n        }\n\n        .checkbox.checked::after {\n            content: \"✓\";\n            position: absolute;\n            top: -2px;\n            left: 1px;\n            color: #00ffff;\n            font-weight: bold;\n            text-shadow: 0 0 10px #00ffff;\n        }\n\n        /* Additional tech styling */\n        .robot-analysis-component p {\n            color: #cbd5e1;\n        }\n\n        .robot-analysis-component strong {\n            color: #00ffff;\n            text-shadow: 0 0 5px rgba(0, 255, 255, 0.3);\n        }\n\n        .robot-analysis-component h3 {\n            color: #ff00ff;\n            text-shadow: 0 0 10px rgba(255, 0, 255, 0.3);\n        }\n\n        .robot-analysis-component h4 {\n            color: #00ff7f;\n            text-shadow: 0 0 10px rgba(0, 255, 127, 0.3);\n        }\n\n        /* Scrollbar styling for webkit browsers */\n        .robot-analysis-component ::-webkit-scrollbar {\n            width: 8px;\n        }\n\n        .robot-analysis-component ::-webkit-scrollbar-track {\n            background: rgba(0, 0, 0, 0.3);\n        }\n\n        .robot-analysis-component ::-webkit-scrollbar-thumb {\n            background: linear-gradient(45deg, #00ffff, #ff00ff);\n            border-radius: 4px;\n        }\n\n        @media (max-width: 768px) {\n            .container {\n                margin: 0;\n                padding: 15px;\n            }\n\n            .header {\n                padding: 25px 15px;\n                margin-bottom: 25px;\n            }\n\n            .title {\n                font-size: 1.8rem;\n            }\n\n            .subtitle {\n                font-size: 1rem;\n            }\n\n            .section {\n                margin: 30px 0;\n                padding: 20px 15px;\n            }\n\n            .section-title {\n                font-size: 1.6rem;\n                flex-direction: column;\n                gap: 10px;\n                text-align: center;\n            }\n\n            .features-grid {\n                grid-template-columns: 1fr;\n                gap: 20px;\n            }\n\n            .feature-card {\n                padding: 20px 15px;\n            }\n\n            .highlight-box {\n                padding: 20px 15px;\n            }\n\n            .steps-list li {\n                padding-left: 50px;\n                padding-right: 10px;\n            }\n\n            .steps-list li::before {\n                width: 30px;\n                height: 30px;\n                left: 10px;\n            }\n        }\n\n        @media (max-width: 480px) {\n            .title {\n                font-size: 1.5rem;\n            }\n\n            .section-title {\n                font-size: 1.4rem;\n            }\n\n            .section-icon {\n                width: 35px;\n                height: 35px;\n                font-size: 1.1rem;\n            }\n        }\n    </style>\n    <div class=\"container\">\n        <header class=\"header\">\n            <h1 class=\"title\">I'm Not a Robot</h1>\n            <p class=\"subtitle\">Proving Humanity in the Digital Panopticon: An Analysis of Neal Agarwal's Interactive Satire</p>\n        </header>\n\n        <!-- Features Section -->\n        <section class=\"section\">\n            <h2 class=\"section-title\">\n                <div class=\"section-icon\">⭐</div>\n                Features\n            </h2>\n            <div class=\"features-grid\">\n                <div class=\"feature-card\">\n                    <div class=\"feature-icon\">🎮</div>\n                    <h3 class=\"feature-title\">Interactive Gameplay</h3>\n                    <p class=\"feature-description\">Progressive difficulty levels that mirror and satirize real CAPTCHA systems, from simple image recognition to impossible tasks.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <div class=\"feature-icon\">🧠</div>\n                    <h3 class=\"feature-title\">Psychological Commentary</h3>\n                    <p class=\"feature-description\">Deep exploration of digital identity verification and the absurdity of proving humanity to machines.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <div class=\"feature-icon\">🎭</div>\n                    <h3 class=\"feature-title\">Satirical Design</h3>\n                    <p class=\"feature-description\">Masterful use of escalating frustration as a narrative device to critique algorithmic gatekeeping.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <div class=\"feature-icon\">🌐</div>\n                    <h3 class=\"feature-title\">Cultural Relevance</h3>\n                    <p class=\"feature-description\">Addresses contemporary anxieties about AI, automation, and the dehumanization of digital experiences.</p>\n                </div>\n            </div>\n        </section>\n\n        <!-- What Section -->\n        <section class=\"section\">\n            <h2 class=\"section-title\">\n                <div class=\"section-icon\">❓</div>\n                What Is It?\n            </h2>\n            <div class=\"highlight-box\">\n                <div class=\"highlight-content\">\n                    <h3 style=\"margin-bottom: 20px; font-size: 1.5rem;\">A Reverse Turing Test Experience</h3>\n                    <p style=\"font-size: 1.1rem; line-height: 1.8;\">Neal Agarwal's \"I'm Not a Robot\" is an interactive web game that transforms the mundane CAPTCHA experience into a profound commentary on digital identity and algorithmic verification. Unlike traditional games, this piece functions as procedural satire, using escalating difficulty and absurd challenges to critique how technology attempts to quantify and validate humanity.</p>\n                </div>\n            </div>\n\n            <p><strong>The Game Structure:</strong> Players progress through 42 levels, starting with familiar CAPTCHA-style challenges (identifying stop signs, reading distorted text) and escalating to impossible or philosophical tasks (drawing perfect circles, expressing creativity, proving you have a soul).</p>\n\n            <div class=\"captcha-demo\">\n                <h4 style=\"margin-bottom: 20px; color: #333;\">Interactive Demo</h4>\n                <div class=\"captcha-checkbox\" onclick=\"toggleDemo()\">\n                    <div class=\"checkbox\" id=\"demoCheck\"></div>\n                    <span>I'm not a robot</span>\n                </div>\n                <p style=\"margin-top: 15px; color: #666; font-style: italic;\">Click to experience the familiar frustration</p>\n            </div>\n\n            <p><strong>Cultural Context:</strong> The game emerges at a cultural moment where digital identity verification has become ubiquitous, reflecting broader anxieties about AI, surveillance, and the constant need to prove our humanity to increasingly sophisticated automated systems.</p>\n        </section>\n\n        <!-- How To Section -->\n        <section class=\"section\">\n            <h2 class=\"section-title\">\n                <div class=\"section-icon\">🎯</div>\n                How To Experience It\n            </h2>\n            <ol class=\"steps-list\">\n                <li><strong>Access the Game:</strong> Visit our website and find \"I'm Not a Robot\" among Neal Agarwal's collection of interactive experiences.</li>\n                <li><strong>Start Simple:</strong> Begin with familiar CAPTCHA-style challenges like identifying images and reading distorted text.</li>\n                <li><strong>Embrace Frustration:</strong> As levels progress, tasks become increasingly difficult and subjective. This frustration is intentional and central to the experience.</li>\n                <li><strong>Analyze Your Reactions:</strong> Pay attention to your emotional responses as the game demands proof of creativity, soul, and grief.</li>\n                <li><strong>Reflect on the Message:</strong> Consider how the game's escalating absurdity mirrors real-world algorithmic verification systems.</li>\n            </ol>\n\n            <div class=\"highlight-box\">\n                <div class=\"highlight-content\">\n                    <h3 style=\"margin-bottom: 15px;\">Pro Tips for Analysis</h3>\n                    <ul style=\"list-style-type: none; padding-left: 0;\">\n                        <li>🔍 <strong>Level 17 (Perfect Circle):</strong> Notice how demanding machine-like precision from human bodies reveals inherent flaws in verification logic</li>\n                        <li>🎨 <strong>Level 25 (Creativity):</strong> Observe how subjective tasks expose the impossibility of algorithmic judgment of human expression</li>\n                        <li>💔 <strong>Level 41 (Grieve):</strong> Experience the absurdity of performing emotion for machine validation</li>\n                        <li>🤖 <strong>Level 42 (Reverse Turing):</strong> Understand the game's ultimate revelation about the nature of human-machine interaction</li>\n                    </ul>\n                </div>\n            </div>\n        </section>\n\n        <!-- Why Section -->\n        <section class=\"section\">\n            <h2 class=\"section-title\">\n                <div class=\"section-icon\">💡</div>\n                Why It Matters\n            </h2>\n            <h3 style=\"color: #667eea; margin-bottom: 20px;\">A Mirror to Digital Society</h3>\n            <p>Agarwal's game functions as a crucial piece of digital folk art, using accessible web technologies to reflect our collective anxieties about algorithmic gatekeeping and digital dehumanization. It belongs to a movement seeking to revive the creative \"Weird Web\" in an era dominated by corporate platforms.</p>\n\n            <h3 style=\"color: #667eea; margin: 30px 0 20px;\">Key Cultural Contributions:</h3>\n            <div class=\"features-grid\">\n                <div class=\"feature-card\">\n                    <h4 style=\"color: #333; margin-bottom: 15px;\">Procedural Satire</h4>\n                    <p>Unlike traditional narrative satire, the game uses interactive mechanics to immerse players in the systems being critiqued, making abstract concepts tangible.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <h4 style=\"color: #333; margin-bottom: 15px;\">Accessibility</h4>\n                    <p>Browser-based simplicity ensures the critique reaches a broad audience, functioning as democratic digital art.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <h4 style=\"color: #333; margin-bottom: 15px;\">Technological Critique</h4>\n                    <p>Exposes the flawed logic behind systems that attempt to measure humanity through algorithmic means.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <h4 style=\"color: #333; margin-bottom: 15px;\">Emotional Resonance</h4>\n                    <p>Transforms abstract technological concerns into visceral, personal experiences of frustration and recognition.</p>\n                </div>\n            </div>\n\n            <div class=\"highlight-box\">\n                <div class=\"highlight-content\">\n                    <h3 style=\"margin-bottom: 20px;\">The Agarwal Aesthetic</h3>\n                    <p>Part of Neal Agarwal's broader portfolio of interactive thought experiments, including \"The Password Game\" and \"Stimulation Clicker,\" this work represents a new form of digital commentary that uses playful interaction to explore serious themes about technology, identity, and human experience in the 21st century.</p>\n                </div>\n            </div>\n        </section>\n\n        <!-- FAQ Section -->\n        <section class=\"section\">\n            <h2 class=\"section-title\">\n                <div class=\"section-icon\">❔</div>\n                Frequently Asked Questions\n            </h2>\n\n            <div class=\"faq-item\">\n                <div class=\"faq-question\" onclick=\"toggleFAQ(1)\">\n                    <span>What is the hardest level in \"I'm Not a Robot\"?</span>\n                    <span id=\"faq-icon-1\">+</span>\n                </div>\n                <div class=\"faq-answer\" id=\"faq-answer-1\" style=\"display: none;\">\n                    Level 17 (\"Perfect Circle\") is notoriously difficult, requiring users to draw a near-perfect circle with a mouse or touchpad. Many players cite this as a breaking point, with the inherent imprecision of human motor skills making machine-like accuracy nearly impossible to achieve.\n                </div>\n            </div>\n\n            <div class=\"faq-item\">\n                <div class=\"faq-question\" onclick=\"toggleFAQ(2)\">\n                    <span>What is the point of the game?</span>\n                    <span id=\"faq-icon-2\">+</span>\n                </div>\n                <div class=\"faq-answer\" id=\"faq-answer-2\" style=\"display: none;\">\n                    The game serves as interactive satire, critiquing how digital verification systems attempt to quantify humanity. It uses escalating absurdity to highlight the flawed logic of algorithmic gatekeeping and the dehumanizing nature of constant digital identity verification.\n                </div>\n            </div>\n\n            <div class=\"faq-item\">\n                <div class=\"faq-question\" onclick=\"toggleFAQ(3)\">\n                    <span>How does it relate to real CAPTCHAs?</span>\n                    <span id=\"faq-icon-3\">+</span>\n                </div>\n                <div class=\"faq-answer\" id=\"faq-answer-3\" style=\"display: none;\">\n                    The game begins by parodying familiar CAPTCHA challenges (identifying images, reading distorted text) before escalating to impossible tasks. This progression mirrors the evolution of web security and highlights how verification systems may become increasingly invasive and absurd.\n                </div>\n            </div>\n\n            <div class=\"faq-item\">\n                <div class=\"faq-question\" onclick=\"toggleFAQ(4)\">\n                    <span>What makes Neal Agarwal's work unique?</span>\n                    <span id=\"faq-icon-4\">+</span>\n                </div>\n                <div class=\"faq-answer\" id=\"faq-answer-4\" style=\"display: none;\">\n                    Agarwal creates accessible, browser-based interactive experiences that function as digital folk art. His work combines simple web technologies with profound cultural commentary, representing a movement to revive creative, experimental web culture in an era of corporate platform dominance.\n                </div>\n            </div>\n\n            <div class=\"faq-item\">\n                <div class=\"faq-question\" onclick=\"toggleFAQ(5)\">\n                    <span>Is there a \"correct\" way to complete the subjective levels?</span>\n                    <span id=\"faq-icon-5\">+</span>\n                </div>\n                <div class=\"faq-answer\" id=\"faq-answer-5\" style=\"display: none;\">\n                    The ambiguity is intentional. Levels like \"Soul,\" \"Grieve,\" and \"Creativity\" have no clear solutions, forcing players to guess what a machine might deem sufficiently \"human.\" This uncertainty is central to the game's critique of algorithmic judgment of subjective human experiences.\n                </div>\n            </div>\n        </section>\n    </div>\n\n    <script>\n        function toggleDemo() {\n            const checkbox = document.getElementById('demoCheck');\n            checkbox.classList.toggle('checked');\n        }\n\n        function toggleFAQ(num) {\n            const answer = document.getElementById(`faq-answer-${num}`);\n            const icon = document.getElementById(`faq-icon-${num}`);\n\n            if (answer.style.display === 'none') {\n                answer.style.display = 'block';\n                icon.textContent = '−';\n            } else {\n                answer.style.display = 'none';\n                icon.textContent = '+';\n            }\n        }\n\n        // Add smooth scrolling for better UX\n        document.querySelectorAll('a[href^=\"#\"]').forEach(anchor => {\n            anchor.addEventListener('click', function (e) {\n                e.preventDefault();\n                document.querySelector(this.getAttribute('href')).scrollIntoView({\n                    behavior: 'smooth'\n                });\n            });\n        });\n\n        // Add intersection observer for section animations\n        const sections = document.querySelectorAll('.section');\n        const observer = new IntersectionObserver(entries => {\n            entries.forEach(entry => {\n                if (entry.isIntersecting) {\n                    entry.target.style.opacity = '1';\n                    entry.target.style.transform = 'translateY(0)';\n                }\n            });\n        }, { threshold: 0.1 });\n\n        sections.forEach(section => {\n            section.style.opacity = '0';\n            section.style.transform = 'translateY(20px)';\n            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';\n            observer.observe(section);\n        });\n    </script>\n</div>\n</div>",
+      "isVisible": true
+    }
+  ],
+  "sectionOrder": {
+    "featuredGame": 0,
+    "newGames": 1,
+    "gameGallery": 2,
+    "customHtmlSection_custom-html-1757673019528": 3,
+    "features": 4,
+    "whatIs": 5,
+    "howToPlay": 6,
+    "whyChooseUs": 7,
+    "faq": 8,
+    "youMightAlsoLike": 9
+  }
+}

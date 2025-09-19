@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "baseUrl": "https://imnotarobot.online/",
+    "defaultChangeFreq": "weekly",
+    "defaultPriority": 0.5,
+    "includeStaticPages": true,
+    "includeGamePages": true,
+    "includeCategoryPages": true,
+    "customUrls": [],
+    "excludeUrls": [
+      "/admin",
+      "/api",
+      "/test"
+    ],
+    "autoGenerate": true,
+    "generateSitemapIndex": true,
+    "lastGenerated": "2025-09-19T01:24:21.152Z"
+  },
+  "updatedAt": "2025-09-19T01:24:21.155Z"
+}

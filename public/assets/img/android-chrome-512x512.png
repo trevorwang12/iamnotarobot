@@ -1,0 +1,94 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Background circle -->
+<circle cx="256" cy="256" r="256" fill="url(#logoBg)"/>
+
+<!-- Shadow Milk Cookie character (larger for 512x512) -->
+<!-- Body -->
+<ellipse cx="256" cy="290" rx="85" ry="100" fill="#87CEEB"/>
+<ellipse cx="256" cy="275" rx="75" ry="90" fill="#B0E0E6"/>
+
+<!-- Spiky blue hair -->
+<path d="M180 185 L200 145 L220 185 L240 130 L260 185 L280 145 L300 185 L320 160 L332 200" fill="#4682B4"/>
+
+<!-- White curved detail on head -->
+<path d="M208 205 Q256 180 304 205 Q256 225 208 205" fill="#FFFFFF"/>
+
+<!-- Eyes -->
+<circle cx="225" cy="245" r="16" fill="#000"/>
+<circle cx="287" cy="245" r="16" fill="#000"/>
+<circle cx="230" cy="238" r="5" fill="#FFF"/>
+<circle cx="292" cy="238" r="5" fill="#FFF"/>
+
+<!-- Nose -->
+<ellipse cx="256" cy="270" rx="8" ry="5" fill="#4169E1"/>
+
+<!-- Mischievous smile -->
+<path d="M230 300 Q256 325 282 300" stroke="#000" stroke-width="5" fill="none"/>
+
+<!-- Dark outfit -->
+<rect x="208" y="330" width="96" height="75" rx="15" fill="#2F4F4F"/>
+<rect x="240" y="345" width="32" height="40" rx="5" fill="#4682B4"/>
+
+<!-- Decorative elements around -->
+<!-- Hearts indicating care -->
+<path d="M107 133 Q93 120 80 133 Q67 120 53 133 Q53 147 80 173 Q107 147 107 133" fill="#FF69B4" opacity="0.8"/>
+<path d="M459 373 Q450 364 441 373 Q432 364 423 373 Q423 382 441 400 Q459 382 459 373" fill="#FF1493" opacity="0.8"/>
+
+<!-- Stars for magic/fun -->
+<path d="M133 400 L139 415 L154 415 L142 425 L148 440 L133 432 L118 440 L124 425 L112 415 L127 415 Z" fill="#FFD700" opacity="0.9"/>
+<path d="M379 107 L385 122 L400 122 L388 132 L394 147 L379 139 L364 147 L370 132 L358 122 L373 122 Z" fill="#FFD700" opacity="0.9"/>
+
+<!-- Additional stars -->
+<path d="M80 320 L84 330 L94 330 L86 336 L90 346 L80 342 L70 346 L74 336 L66 330 L76 330 Z" fill="#FFD700" opacity="0.7"/>
+<path d="M432 160 L436 170 L446 170 L438 176 L442 186 L432 182 L422 186 L426 176 L418 170 L428 170 Z" fill="#FFD700" opacity="0.7"/>
+
+<!-- Small sparkles -->
+<circle cx="80" cy="213" r="5" fill="#FFF" opacity="0.7"/>
+<circle cx="432" cy="187" r="5" fill="#FFF" opacity="0.7"/>
+<circle cx="107" cy="320" r="4" fill="#FFF" opacity="0.8"/>
+<circle cx="405" cy="293" r="4" fill="#FFF" opacity="0.8"/>
+<circle cx="160" cy="120" r="3" fill="#FFF" opacity="0.6"/>
+<circle cx="352" cy="400" r="3" fill="#FFF" opacity="0.6"/>
+
+<!-- Game elements -->
+<!-- Food item -->
+<ellipse cx="120" cy="180" rx="20" ry="12" fill="#D2691E"/>
+<ellipse cx="120" cy="175" rx="18" ry="10" fill="#F4A460"/>
+
+<!-- Toy ball -->
+<circle cx="392" cy="200" r="18" fill="#FF6347"/>
+<circle cx="387" cy="195" r="5" fill="#FFF"/>
+
+<!-- Cleaning brush -->
+<rect x="100" y="380" width="15" height="40" rx="7" fill="#8B4513"/>
+<rect x="95" y="370" width="25" height="15" rx="7" fill="#DEB887"/>
+
+<!-- Status indicators -->
+<rect x="350" y="350" width="120" height="12" rx="6" fill="rgba(255,255,255,0.3)"/>
+<rect x="352" y="352" width="90" height="8" rx="4" fill="#4CAF50"/>
+<text x="355" y="345" fill="#FFF" font-size="16">HAPPINESS</text>
+
+<!-- "No Rules" badge -->
+<ellipse cx="400" cy="100" rx="60" ry="25" fill="#FF4500"/>
+<text x="400" y="108" text-anchor="middle" fill="#FFF" font-size="18" font-weight="bold">NO RULES!</text>
+
+<!-- Virtual Pet badge -->
+<ellipse cx="112" cy="100" rx="70" ry="25" fill="#9C27B0"/>
+<text x="112" y="108" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold">VIRTUAL PET</text>
+
+<!-- Border ring -->
+<circle cx="256" cy="256" r="250" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="5"/>
+
+<!-- Inner decorative circles -->
+<circle cx="256" cy="256" r="220" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+<circle cx="256" cy="256" r="190" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+<defs>
+<linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#4B5563"/>
+<stop offset="25%" stop-color="#6B7280"/>
+<stop offset="75%" stop-color="#374151"/>
+<stop offset="100%" stop-color="#1F2937"/>
+</linearGradient>
+</defs>
+</svg>

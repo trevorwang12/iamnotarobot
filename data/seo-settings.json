@@ -1,0 +1,74 @@
+{
+  "seoSettings": {
+    "id": "main-seo-settings",
+    "siteName": "Free Play I'm Not a Robot Game",
+    "siteDescription": "Play the free 'I'm Not a Robot' to solve captivating CAPTCHA puzzles and prove your not a robot! ",
+    "siteUrl": "https://imnotarobot.online",
+    "siteLogo": "/uploads/1758245534985-nuydpf-PixPin_2025-09-19_08-41-13.webp",
+    "favicon": "/uploads/1758245538765-c9dliy-PixPin_2025-09-19_08-41-13.webp",
+    "keywords": [
+      "browser games",
+      "free games",
+      "HTML5 games",
+      "web games",
+      "casual games"
+    ],
+    "author": "",
+    "twitterHandle": "Free Play I'm Not a Robot Game",
+    "ogImage": "/uploads/1758245543402-0af285-PixPin_2025-09-19_08-41-13.webp",
+    "ogTitle": "Free Play I'm Not a Robot Game",
+    "ogDescription": "Free Play I'm Not a Robot Game",
+    "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /api/\n\nSitemap:https://imnotarobot.online/sitemap.xml",
+    "structuredData": {
+      "enabled": true,
+      "organizationType": "WebSite",
+      "organizationName": "https://imnotarobot.online",
+      "organizationUrl": "https://imnotarobot.online",
+      "organizationLogo": "/uploads/1758249964687-u9d8dw-PixPin_2025-09-19_08-41-13.webp",
+      "sameAs": []
+    },
+    "metaTags": {
+      "viewport": "width=device-width, initial-scale=1.0",
+      "themeColor": "#475569",
+      "appleMobileWebAppTitle": "GAMES",
+      "appleMobileWebAppCapable": "yes"
+    },
+    "createdAt": "2025-08-29T11:10:41.564Z",
+    "updatedAt": "2025-09-19T02:46:27.580Z",
+    "canonicalUrl": "https://imnotarobot.online",
+    "googleAnalyticsId": "",
+    "customHeadTags": "<script defer data-domain=\"imnotarobot.online\" src=\"http://plausible-plausible-3df022-193-203-167-34.traefik.me/js/script.js\"></script>\n<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>\n"
+  },
+  "gamePageSEO": {
+    "titleTemplate": "{gameName} - Play Free Online | {siteName}",
+    "descriptionTemplate": "Play {gameName} for free online! {gameDescription} No download required - start playing now!",
+    "keywordsTemplate": "{gameName}, {category}, free game, online game, browser game",
+    "enableBreadcrumbs": true,
+    "enableRichSnippets": true,
+    "enableOpenGraph": true,
+    "enableTwitterCards": true
+  },
+  "categoryPageSEO": {
+    "titleTemplate": "{categoryName} Games - Free Online | {siteName}",
+    "descriptionTemplate": "Play the best {categoryName} games for free! Discover hundreds of exciting {categoryName} games.",
+    "keywordsTemplate": "{categoryName} games, free {categoryName}, online {categoryName}",
+    "enablePagination": true
+  },
+  "headingStructure": {
+    "homepage": {
+      "h1": "{siteName} - Best Free Online Games",
+      "h2": "Featured Games",
+      "h3": "Game Categories"
+    },
+    "gamePage": {
+      "h1": "{gameName}",
+      "h2": "About This Game",
+      "h3": "Game Features"
+    },
+    "categoryPage": {
+      "h1": "{categoryName} Games",
+      "h2": "Popular {categoryName} Games",
+      "h3": "Latest {categoryName} Games"
+    }
+  }
+}

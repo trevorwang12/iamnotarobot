@@ -1,0 +1,48 @@
+# Dependencies
+node_modules
+npm-debug.log*
+
+# Next.js build outputs
+.next
+out
+
+# Environment variables
+.env*.local
+.env
+
+# Testing
+coverage
+.nyc_output
+
+# Cache
+.npm
+.eslintcache
+
+# Misc
+.DS_Store
+*.tgz
+*.tar.gz
+
+# Debug logs
+logs
+*.log
+
+# Git
+.git
+.gitignore
+
+# Editor
+.vscode
+.idea
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Playwright
+test-results
+playwright-report
+
+# Vercel
+.vercel
