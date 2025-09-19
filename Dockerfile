@@ -7,8 +7,8 @@ RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
 # Copy package files
-COPY package.json package-lock.json* ./
-RUN npm ci --only=production
+COPY package.json package-lock.json ./
+RUN npm ci --only=production --prefer-offline --no-audit
 
 # Rebuild the source code only when needed
 FROM base AS builder
@@ -19,6 +19,9 @@ COPY . .
 # Set environment variables for build
 ENV NEXT_TELEMETRY_DISABLED 1
 ENV NODE_ENV production
+
+# Install all dependencies for build
+RUN npm ci --prefer-offline --no-audit
 
 # Build the application
 RUN npm run build
@@ -48,4 +51,4 @@ ENV PORT 3000
 ENV HOSTNAME "0.0.0.0"
 
 # Start the application
-CMD ["node", "server.js"]
+CMD ["npm", "start"]

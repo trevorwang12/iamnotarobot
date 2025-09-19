@@ -23,8 +23,9 @@
 
 1. **登录 Dokploy 控制台**
 2. **创建新应用**：
-   - 选择 "Docker Compose" 或 "Docker" 部署类型
-   - 连接您的 Git 仓库
+   - 选择 "Nixpacks" 部署类型（推荐，自动检测配置）
+   - 或选择 "Docker" 部署类型使用自定义 Dockerfile
+   - 连接您的 Git 仓库：`https://github.com/trevorwang12/iamnotarobot.git`
    - 设置构建和部署配置
 
 ### 3. 配置环境变量
@@ -67,14 +68,29 @@ NEXT_PUBLIC_DEBUG_MODE=false
 
 ## 📋 部署步骤详解
 
-### 使用 Docker Compose（推荐）
+### 方法 1: 使用 Nixpacks（推荐）
+
+1. **在 Dokploy 中选择 Nixpacks 部署**
+2. **Git 仓库**: `https://github.com/trevorwang12/iamnotarobot.git`
+3. **分支**: `main`
+4. **端口**: `3000`
+5. **设置环境变量**
+6. **点击部署**
+
+**优势**:
+- 自动检测 Node.js 项目
+- 使用项目中的 `.nixpacks.toml` 配置
+- 更快的构建速度
+- 自动优化
+
+### 方法 2: 使用 Docker Compose
 
 1. **在 Dokploy 中选择 Docker Compose 部署**
 2. **指向项目根目录的 docker-compose.yml**
 3. **设置环境变量**
 4. **点击部署**
 
-### 使用 Dockerfile
+### 方法 3: 使用 Dockerfile
 
 1. **在 Dokploy 中选择 Docker 部署**
 2. **构建上下文**: 项目根目录
